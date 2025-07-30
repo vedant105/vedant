@@ -1,0 +1,53 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f9f5ef;
+  color: #333;
+  padding: 20px;
+}
+.container {
+  max-width: 600px;
+  margin: auto;
+  background: #fff;
+  padding: 25px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px #ccc;
+}
+h1, h2 {
+  text-align: center;
+  color: #2c3e50;
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 10px 0;
+}
+table th, table td {
+  border: 1px solid #ddd;
+  padding: 10px;
+  text-align: left;
+}
+.input-section {
+  margin-top: 20px;
+}
+.input-section input {
+  margin: 5px 0 15px;
+  width: 100%;
+  padding: 8px;
+}
+button {
+  padding: 10px 20px;
+  background-color: #27ae60;
+  color: white;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+button:hover {
+  background-color: #219150;
+}
+.bill-output {
+  margin-top: 20px;
+  background: #ecf0f1;
+  padding: 15px;
+  border-radius: 8px;
+}

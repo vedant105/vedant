@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Visalmaga Mart Bill</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1># Program for Creating a Bill #</h1>
+    <h2>Welcome to Visalmaga Mart</h2>
+    <p>This is the list of items:</p>
+    <table>
+      <tr><th>Item</th><th>Price ($)</th></tr>
+      <tr><td>Apple</td><td>5</td></tr>
+      <tr><td>Bread</td><td>7</td></tr>
+      <tr><td>Milk</td><td>12</td></tr>
+      <tr><td>Coffee</td><td>10</td></tr>
+    </table>
+
+    <div class="input-section">
+      <label>Enter number of Apples:</label><input type="number" id="apple" min="0"><br>
+      <label>Enter number of Bread:</label><input type="number" id="bread" min="0"><br>
+      <label>Enter number of Milk:</label><input type="number" id="milk" min="0"><br>
+      <label>Enter number of Coffee:</label><input type="number" id="coffee" min="0"><br>
+      <button onclick="generateBill()">Generate Bill</button>
+    </div>
+
+    <div class="bill-output" id="billOutput"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
